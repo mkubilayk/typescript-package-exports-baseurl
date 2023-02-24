@@ -1,0 +1,19 @@
+{
+    "name": "producer-with-package-exports",
+    "version": "1.0.0",
+    "main": "out/index.js",
+    "types": "out/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./out/index.d.ts",
+            "require": "./out/index.js"
+        },
+        "./entrypoint-a": {
+            "types": "./out/entrypoint-a.d.ts",
+            "require": "./out/entrypoint-a.js"
+        }
+    },
+    "files": [
+        "out/**"
+    ]
+}
