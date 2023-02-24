@@ -1,6 +1,6 @@
-# Reproduction for microsoft/TypeScript#TODO
+# Reproduction for microsoft/TypeScript#52950
 
-[TODO: Issue Link]
+https://github.com/microsoft/TypeScript/issues/52950
 
 First build the producer:
 
